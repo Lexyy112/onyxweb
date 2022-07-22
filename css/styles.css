@@ -50,9 +50,9 @@ h1, h2, h3 {
   position: relative;
 }
 
-/* .children-image{
-  height: 30rem;
-} */
+.children-image{
+  max-width: 100%;
+}
 .image-content{
 position: absolute; /* Position the background text */
  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
@@ -176,4 +176,16 @@ top: 900px;
   text-align: center;
   position: absolute;
   left: 30%;
+}
+
+
+@media(max-width:900px) {
+  .contact-us-form{
+  top: 300px;
+    }
+
+    .footer-section-contact{
+      top: 900px;
+      left: 15%;
+    }
 }
