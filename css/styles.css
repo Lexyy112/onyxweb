@@ -189,3 +189,24 @@ top: 900px;
       left: 15%;
     }
 }
+
+
+.image-container-additional-services {
+  position: relative;
+  top: 10px;
+}
+
+.consultant-image{
+  max-width: 100%;
+}
+.consultant-content{
+position: relative; /* Position the background text */
+ bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+ background: rgb(0, 0, 0); /* Fallback color */
+ background: #CDF0EA; /* Black background with 0.5 opacity */
+ color: #01415d; /* Grey text */
+ width:100%; /* Full width */
+ padding: 20px; /* Some padding */
+ font-size: 1.15rem;
+
+}
